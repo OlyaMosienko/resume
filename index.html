@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Оля Мосиенко, frontend разработчик, cv, резюме">
+    <meta name="description" content="Здесь будет сайт-резюме frontend разработчика Оли Мосиенко">
+    <link rel="stylesheet" href="style.css">
+    <title>Будущий сайт-резюме Оли Мосиенко</title>
+</head>
+<body id="up">
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="img/photo.jpg" alt="Оля Мосиенко">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#hobby">Обо мне</a></li>
+                    <li><a href="#experience">Мой опыт</a></li>
+                    <li><a href="#skills">Мои навыки</a></li>
+                    <li><a href="#feedback">Связаться со&nbsp;мной</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="img/uzor.svg" alt="fon" class="background-fon">
+        <div class="container">
+            <section class="main-section">
+                <div class="avatar">
+                    <img src="img/photo.jpg" alt="Оля Мосиенко" width="150">
+                </div>
+                <div class="main-info">
+                    <h1>Оля Мосиенко</h1>
+                    <div class="main-info-text">
+                        <p>В данный момент я <span>являюсь верстальщиком и учусь</span> в Result University, <span>чтобы стать frontend разработчиком.</span></p>
+                        <p>Не могу жить без кофе, люблю решать загадки и&nbsp;ходить на квизы, и&nbsp;твердо&nbsp;убеждена, если&nbsp;любить то, что&nbsp;делаешь и&nbsp;делать это регулярно, то&nbsp;всё&nbsp;обязательно получится!</p>
+                    </div>
+
+                    <article class="socials">
+                        <h4>Мои соцсети:</h4>
+                        <div class="socials-box">
+                            <a href="https://t.me/olyamosienko" target="_blank">Telegram</a>
+                            |
+                            <a href="https://github.com/OlyaMosienko" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        
+            <article class="card hobby" id="hobby">
+                <h3>Мои хобби:</h3>
+                <ul>
+                    <li>Сериалы</li>
+                    <li>Прогулки</li>
+                    <li>Бассейн</li>
+                    <li>Разработка</li>
+                </ul>
+            </article>
+
+            <article class="card experience" id="experience">
+                <h3>Опыт работы</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FrontendBlok</td>
+                            <td>Веб-разработчик</td>
+                            <td>08-10.2023</td>
+                        </tr>
+                        <tr>
+                            <td>Ситиникс</td>
+                            <td>Верстальщик</td>
+                            <td>02.2024 - сейчас</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article class="card experience" id="skills">
+                <h3>Навыки</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Уровень</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>уверенный</td>
+                        </tr>
+                        <tr>
+                            <td>CSS/SCSS</td>
+                            <td>выше среднего</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>базовый</td>
+                        </tr>
+                        <tr>
+                            <td>php для Wordpress</td>
+                            <td>базовый</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article class="card feedback" id="feedback">
+                <h2>Связаться со мной</h2>
+                <form class="form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" name="name" id="name" placeholder="Введите имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" name="email" id="email" placeholder="Введите email">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </article>
+
+            <div class="up"><a href="#up">Наверх</a></div>
+        </div>
+    </main>
+</body>
+</html>
