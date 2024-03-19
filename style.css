@@ -16,6 +16,7 @@ select {
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 @media (max-width: 700px) {
     html {
